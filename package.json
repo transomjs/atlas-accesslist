@@ -1,7 +1,7 @@
 {
-  "name": "@transomjs/transom-smtp",
-  "version": "2.0.1",
-  "description": "Add SMTP functions and email templating to server-side Transom code",
+  "name": "@transomjs/transom-atlas-accesslist",
+  "version": "0.0.0",
+  "description": "Auto add TransomJS server IPs to the Atlas MongoDB Accesslist.",
   "main": "index.js",
   "scripts": {
     "deploy": "np",
@@ -10,20 +10,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/transomjs/transom-smtp.git"
+    "url": "git+https://github.com/transomjs/atlas-accesslist.git"
   },
   "keywords": [
-    "smtp",
-    "email"
+    "atlas",
+    "mongodb",
+    "whitelist",
+    "accesslist"
   ],
   "author": "Mark Voorberg <mark@binaryops.ca>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/transomjs/transom-smtp/issues"
+    "url": "https://github.com/transomjs/atlas-accesslist/issues"
   },
-  "homepage": "https://github.com/transomjs/transom-smtp#readme",
+  "homepage": "https://github.com/transomjs/atlas-accesslist#readme",
   "engines": {
-    "node": ">=8.0"
+    "node": ">=12.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
@@ -36,6 +38,8 @@
     "sinon": "^7.5.0"
   },
   "dependencies": {
-    "nodemailer": "^6.3.1"
+    "axios": "^0.24.0",
+    "debug": "^4.3.2",
+    "mongodb-atlas-api-client": "^2.27.0"
   }
 }

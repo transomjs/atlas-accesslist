@@ -1,6 +1,6 @@
 {
   "name": "@transomjs/transom-atlas-accesslist",
-  "version": "0.0.1-0",
+  "version": "0.0.1",
   "description": "Auto add TransomJS server IPs to the Atlas MongoDB Accesslist.",
   "main": "index.js",
   "scripts": {

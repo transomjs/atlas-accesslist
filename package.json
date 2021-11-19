@@ -1,0 +1,41 @@
+{
+  "name": "@transomjs/transom-smtp",
+  "version": "2.0.1",
+  "description": "Add SMTP functions and email templating to server-side Transom code",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "np",
+    "test": "cross-env NODE_ENV=test nyc mocha",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transomjs/transom-smtp.git"
+  },
+  "keywords": [
+    "smtp",
+    "email"
+  ],
+  "author": "Mark Voorberg <mark@binaryops.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/transomjs/transom-smtp/issues"
+  },
+  "homepage": "https://github.com/transomjs/transom-smtp#readme",
+  "engines": {
+    "node": ">=8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.9",
+    "cross-env": "^6.0.3",
+    "mocha": "^6.2.2",
+    "mocha-lcov-reporter": "^1.3.0",
+    "np": "^5.1.3",
+    "nyc": "^14.1.1",
+    "sinon": "^7.5.0"
+  },
+  "dependencies": {
+    "nodemailer": "^6.3.1"
+  }
+}

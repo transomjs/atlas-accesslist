@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/transomjs/atlas-accesslist.git"
+    "url": "git+https://github.com/transomjs/transom-atlas-accesslist.git"
   },
   "publishConfig": {
     "access": "public"
@@ -24,9 +24,9 @@
   "author": "Mark Voorberg <mark@binaryops.ca>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/transomjs/atlas-accesslist/issues"
+    "url": "https://github.com/transomjs/transom-atlas-accesslist/issues"
   },
-  "homepage": "https://github.com/transomjs/atlas-accesslist#readme",
+  "homepage": "https://github.com/transomjs/transom-atlas-accesslist#readme",
   "engines": {
     "node": ">=12.0"
   },

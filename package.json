@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/transomjs/atlas-accesslist.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "atlas",
     "mongodb",
